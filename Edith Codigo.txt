@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal de [Tu Nombre]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página Personal de [Tu Nombre]</h1>
+        <p>Bienvenido a mi página personal</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Datos Personales</h2>
+            <p>Nombre: [Edith Monroy]</p>
+            <p>Correo Electrónico: edith_mon@hotmail.com</p>
+            <p>Teléfono: +525545259751</p>
+            <p>Ubicación: Ciudad de Mexico, México</p>
+        </section>
+        <section>
+            <h2>Video</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+        <section>
+            <h2>Galería de Fotos</h2>
+            <div class="gallery">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <!-- Agrega más imágenes según sea necesario -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
